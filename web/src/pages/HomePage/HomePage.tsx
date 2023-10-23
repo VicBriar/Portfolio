@@ -1,5 +1,6 @@
-import { Link, RouteAnnouncement, routes } from '@redwoodjs/router'
+import { RouteAnnouncement } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
+
 import HomeLinks from 'src/components/HomeLinkComponents/HomeLink/HomeLinks'
 
 const HomePage = () => {

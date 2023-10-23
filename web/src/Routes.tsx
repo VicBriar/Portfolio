@@ -15,7 +15,7 @@ const Routes = () => {
       <Route path="/experience" page={ExperiencePage} name="experience" />
       <Route path="/portfolio" page={PortfolioPage} name="portfolio" />
       <Route path="/bio" page={BioPage} name="bio" />
-      <Route path="/" page={HomePage} name="home" prerender/>
+      <Route path="/" page={HomePage} name="home" prerender />
       <Route notfound page={NotFoundPage} />
     </Router>
   )
