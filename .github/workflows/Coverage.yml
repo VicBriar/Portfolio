@@ -1,4 +1,4 @@
-name: 'coverage'
+name: 'Coverage'
 on:
     pull_request:
         branches:
@@ -8,8 +8,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
-              with:
-                package-manager: yarn
             - uses: ArtiomTr/jest-coverage-report-action@v2
               with:
-                test-script: yarn rw test --no-watch
+                package-manager: yarn
+                test-script: yarn jest --no-watch
