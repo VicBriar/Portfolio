@@ -3,7 +3,7 @@ type HomeLayoutProps = {
 }
 
 const HomeLayout = ({ children }: HomeLayoutProps) => {
-  return <main className="bg-rose-200 h-screen w-screen">{children}</main>
+  return <main className="h-screen w-screen bg-rose-200">{children}</main>
 }
 
 export default HomeLayout
