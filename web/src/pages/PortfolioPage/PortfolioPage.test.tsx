@@ -11,4 +11,9 @@ describe('PortfolioPage', () => {
       render(<PortfolioPage />)
     }).not.toThrow()
   })
+
+  it('renders correctly', () => {
+    const tree = render(<PortfolioPage />)
+    expect(tree).toMatchSnapshot()
+  })
 })

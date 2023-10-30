@@ -11,4 +11,9 @@ describe('ExperiencePage', () => {
       render(<ExperiencePage />)
     }).not.toThrow()
   })
+
+  it('renders correctly', () => {
+    const tree = render(<ExperiencePage />)
+    expect(tree).toMatchSnapshot()
+  })
 })
