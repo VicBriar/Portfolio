@@ -11,4 +11,9 @@ describe('HomePage', () => {
       render(<HomePage />)
     }).not.toThrow()
   })
+
+  it('renders correctly', () => {
+    const tree = render(<HomePage />)
+    expect(tree).toMatchSnapshot()
+  })
 })

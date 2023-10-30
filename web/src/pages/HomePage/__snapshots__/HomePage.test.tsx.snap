@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        data-redwood-route-announcement="true"
+        style="position: absolute; top: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;"
+      >
+        Home page with links to the rest of my portfolio. Thanks for visiting!
+      </div>
+      <div
+        class="grid grid-cols-2 grid-rows-2 gap-4"
+      >
+        <h1
+          class="font-bold text-zinc-50"
+        >
+          Victoria Briar
+        </h1>
+        <article>
+          <div>
+            <a
+              href="/portfolio"
+            >
+              My Work
+            </a>
+            <a
+              href="/experience"
+            >
+              My Skills
+            </a>
+            <a
+              href="/bio"
+            >
+              About Me
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      data-redwood-route-announcement="true"
+      style="position: absolute; top: 0px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;"
+    >
+      Home page with links to the rest of my portfolio. Thanks for visiting!
+    </div>
+    <div
+      class="grid grid-cols-2 grid-rows-2 gap-4"
+    >
+      <h1
+        class="font-bold text-zinc-50"
+      >
+        Victoria Briar
+      </h1>
+      <article>
+        <div>
+          <a
+            href="/portfolio"
+          >
+            My Work
+          </a>
+          <a
+            href="/experience"
+          >
+            My Skills
+          </a>
+          <a
+            href="/bio"
+          >
+            About Me
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

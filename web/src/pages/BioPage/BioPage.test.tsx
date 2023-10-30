@@ -11,4 +11,9 @@ describe('BioPage', () => {
       render(<BioPage />)
     }).not.toThrow()
   })
+
+  it('renders correctly', () => {
+    const tree = render(<BioPage />)
+    expect(tree).toMatchSnapshot()
+  })
 })
