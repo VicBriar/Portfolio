@@ -10,12 +10,12 @@ const HomePage = () => {
       <RouteAnnouncement visuallyHidden>
         Home page with links to the rest of my portfolio. Thanks for visiting!
       </RouteAnnouncement>
-      <div className="grid grid-cols-2 grid-rows-2 gap-4">
-        <h1 className="font-bold text-zinc-50">Victoria Briar</h1>
+      <main  className="m-10 flex flex-auto justify-around items-center tracking-wide">
+        <h1 className="m-5 px-10 py-20 font-bold  border-zinc-50 border-8 rounded-sm text-zinc-50 text-6xl">Victoria Briar</h1>
         <article>
-          <HomeLinks />
+          <HomeLinks/>
         </article>
-      </div>
+      </main>
     </>
   )
 }

@@ -17,9 +17,9 @@ const Routes = () => {
       <Route path="/experience" page={ExperiencePage} name="experience" />
       <Route path="/portfolio" page={PortfolioPage} name="portfolio" />
       <Route path="/bio" page={BioPage} name="bio" />
+      <Route notfound page={NotFoundPage} />
       <Set wrap={HomeLayout}>
         <Route path="/" page={HomePage} name="home" prerender />
-        <Route notfound page={NotFoundPage} />
       </Set>
     </Router>
   )
