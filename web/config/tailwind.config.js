@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         sans: ['Josefin Sans', 'sans-serif'],
       },
+      minHeight: {
+        '7/8': '87vh',
+      },
     },
   },
   plugins: [],
