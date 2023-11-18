@@ -9,6 +9,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer home {
+    html {
+        @apply bg-rose-200
+    }
+}
 /**
  * END --- SETUP TAILWINDCSS EDIT
  */

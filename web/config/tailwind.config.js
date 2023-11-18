@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Montserrat', 'sans-serif'],
+        sans: ['Josefin Sans', 'sans-serif'],
+      },
+      minHeight: {
+        '7/8': '87vh',
       },
     },
   },
