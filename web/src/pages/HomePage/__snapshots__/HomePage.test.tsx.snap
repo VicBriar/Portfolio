@@ -11,34 +11,44 @@ exports[`HomePage renders correctly 1`] = `
       >
         Home page with links to the rest of my portfolio. Thanks for visiting!
       </div>
-      <div
-        class="grid grid-cols-2 grid-rows-2 gap-4"
+      <main
+        class="m-2 flex w-screen basis-full flex-col items-center justify-around border-2 border-red-400 tracking-wide md:flex-row md:flex-wrap"
       >
-        <h1
-          class="font-bold text-zinc-50"
+        <div
+          class="m-5 flex flex-initial basis-1/3 flex-col items-center justify-center rounded-sm border-8 border-zinc-50 px-5 py-10 text-4xl font-bold text-zinc-50 md:text-6xl lg:text-7xl"
         >
-          Victoria Briar
-        </h1>
+          <h1>
+            Victoria
+          </h1>
+          <h2>
+            Briar
+          </h2>
+        </div>
         <article>
-          <div>
+          <div
+            class="m-2 flex basis-2/3 flex-col items-center text-5xl italic text-zinc-50 sm:text-6xl md:text-8xl lg:text-9xl"
+          >
             <a
+              class="m-5 p-4 transition delay-100 hover:-translate-y-1 hover:scale-110 hover:text-black hover:underline motion-reduce:transition-none motion-reduce:hover:transform-none"
               href="/portfolio"
             >
-              My Work
+              Portfolio
             </a>
             <a
+              class="m-5 p-4 transition delay-100 hover:-translate-y-1 hover:scale-110 hover:text-black hover:underline motion-reduce:transition-none motion-reduce:hover:transform-none"
               href="/experience"
             >
-              My Skills
+              Experience
             </a>
             <a
+              class="m-5 p-4 transition delay-100 hover:-translate-y-1 hover:scale-110 hover:text-black hover:underline motion-reduce:transition-none motion-reduce:hover:transform-none"
               href="/bio"
             >
               About Me
             </a>
           </div>
         </article>
-      </div>
+      </main>
     </div>
   </body>,
   "container": <div>
@@ -48,34 +58,44 @@ exports[`HomePage renders correctly 1`] = `
     >
       Home page with links to the rest of my portfolio. Thanks for visiting!
     </div>
-    <div
-      class="grid grid-cols-2 grid-rows-2 gap-4"
+    <main
+      class="m-2 flex w-screen basis-full flex-col items-center justify-around border-2 border-red-400 tracking-wide md:flex-row md:flex-wrap"
     >
-      <h1
-        class="font-bold text-zinc-50"
+      <div
+        class="m-5 flex flex-initial basis-1/3 flex-col items-center justify-center rounded-sm border-8 border-zinc-50 px-5 py-10 text-4xl font-bold text-zinc-50 md:text-6xl lg:text-7xl"
       >
-        Victoria Briar
-      </h1>
+        <h1>
+          Victoria
+        </h1>
+        <h2>
+          Briar
+        </h2>
+      </div>
       <article>
-        <div>
+        <div
+          class="m-2 flex basis-2/3 flex-col items-center text-5xl italic text-zinc-50 sm:text-6xl md:text-8xl lg:text-9xl"
+        >
           <a
+            class="m-5 p-4 transition delay-100 hover:-translate-y-1 hover:scale-110 hover:text-black hover:underline motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="/portfolio"
           >
-            My Work
+            Portfolio
           </a>
           <a
+            class="m-5 p-4 transition delay-100 hover:-translate-y-1 hover:scale-110 hover:text-black hover:underline motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="/experience"
           >
-            My Skills
+            Experience
           </a>
           <a
+            class="m-5 p-4 transition delay-100 hover:-translate-y-1 hover:scale-110 hover:text-black hover:underline motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="/bio"
           >
             About Me
           </a>
         </div>
       </article>
-    </div>
+    </main>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
